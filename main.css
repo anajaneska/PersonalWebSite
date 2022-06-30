@@ -1,0 +1,122 @@
+header{
+    background-color: white;
+}
+
+.ime{
+    color: #1F4788;
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 30px;
+}
+#main{
+    background-color: #1F4788;
+    border-radius: 20px;
+}
+header nav{
+    float:right;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    padding-top: 45px;
+}
+
+header nav a{
+    color: #1F4788;
+    text-decoration: none;
+    font-size: 20px;
+    flex:1;
+}
+header nav .current{
+    background-color: #1F4788;
+    color:white;
+    border-radius: 20px;
+    text-align: center;
+}
+#slika3{
+    width: 25%;
+    border-radius: 20px;
+    margin: 30px;
+}
+.paragraph{
+    color: white;
+    font-size: 15px;
+    float: right;
+    display: inline;
+    width: 400px;
+    margin-top: 30px;
+    padding-top: 150px;
+}
+.paragraph a{
+    color: white;
+}
+.prvo{
+    display: flex;
+}
+footer{
+    background-color: white;
+}
+footer nav{
+    float:right;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    padding-top: 45px;
+}
+footer nav a{
+    color: #1F4788;
+    text-decoration: none;
+
+}
+footer p{
+    display: inline-block;
+    margin: 30px;
+    color: #1F4788;
+}
+a:hover{
+    opacity: 60%;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.images .travelSliki{
+    margin:20px;
+    width: 15%;
+    border-radius: 20px;
+}
+.images .hobbySliki{
+    margin:20px;
+
+   width: 15%;
+    border-radius: 20px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+body{
+    font-family: Georgia;
+}
+#slika1{
+    width: 25%;
+    border-radius: 20px;
+    margin: 30px;
+    float: right;
+    display: inline-block;
+}
+.strana1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.paragraph1{
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.paragraph1 a{
+    color:white;
+}
